@@ -1,0 +1,17 @@
+{
+  "name": "norm",
+  "description": "norm",
+  "author": [
+    "Keisuke Miyako <keisuke.miyako@4D.com>"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/miyako/norm",
+  "version": "1.0.8",
+  "tool": {
+    "platform": "macos",
+    "branch": "20.x",
+    "version": "20.5",
+    "build": "latest",
+    "arch": "arm"
+  }
+}
