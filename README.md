@@ -24,8 +24,8 @@ $NFC:=cs.norm.norm.new("NFC")
 $norm:=$NFC.norm("e"+Char(0x0301))
 ALERT([$norm; ":\r"; "length:"; Length($norm)].join(""))
 
-var $NFD : cs.norm
-$NFD:=cs.norm.new("NFD")
+var $NFD : cs.norm.norm
+$NFD:=cs.norm.norm.new("NFD")
 $norm:=$NFD.norm("é")
 ALERT([$norm; ":\r"; "length:"; Length($norm)].join(""))
 ```
