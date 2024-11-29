@@ -19,8 +19,8 @@
 ```
 
 ```4d
-var $NFC : cs.norm
-$NFC:=cs.norm.new("NFC")
+var $NFC : cs.norm.norm
+$NFC:=cs.norm.norm.new("NFC")
 $norm:=$NFC.norm("e"+Char(0x0301))
 ALERT([$norm; ":\r"; "length:"; Length($norm)].join(""))
 
