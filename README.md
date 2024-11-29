@@ -29,3 +29,5 @@ $NFD:=cs.norm.new("NFD")
 $norm:=$NFD.norm("é")
 ALERT([$norm; ":\r"; "length:"; Length($norm)].join(""))
 ```
+
+the [CLI](https://github.com/miyako/go-norm) is written in Go.
