@@ -8,11 +8,13 @@ Class constructor($format : Text)
 	
 	This:C1470.format:=$format
 	
+	This:C1470.controller.timeout:=5
+	
 Function get worker() : 4D:C1709.SystemWorker
 	
-	return This:C1470._controller.worker
+	return This:C1470.controller.worker
 	
-Function _terminate()
+Function terminate()
 	
 	This:C1470.controller.terminate()
 	
