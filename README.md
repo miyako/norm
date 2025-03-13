@@ -12,7 +12,7 @@
     "dependencies": {
         "norm": {
             "github": "miyako/norm",
-            "version": "*"
+            "version": "latest"
         }
     }
 }
